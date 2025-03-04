@@ -51,3 +51,37 @@ exibir_mensagem()
 #   juntamente com a mensagem global.
 # - Este exercício ilustra como funções aninhadas podem ser utilizadas para encapsular lógica e
 #   manter o código organizado e modular.
+
+#Explicação do Código
+
+1. Variável Global (mensagem_principal):
+
+Criada fora de qualquer função e acessível em qualquer lugar do script.
+
+
+
+2. Função exibir_mensagem():
+
+Contém uma função interna chamada mensagem_secundaria(), que ilustra o conceito de funções aninhadas.
+
+Dentro da função interna, é criada uma variável local (nota), que só existe dentro dela.
+
+
+
+3. Função mensagem_secundaria():
+
+Retorna a variável local nota, permitindo que seu valor seja capturado na função exibir_mensagem().
+
+
+
+4. Chamada da Função exibir_mensagem():
+
+Demonstra a relação entre variáveis globais e locais, imprimindo ambas as mensagens.
+
+
+
+
+
+---
+
+Esse código ensina, de maneira didática, os conceitos fundamentais de escopo de variáveis e funções aninhadas, fundamentais para a compreensão de como o Python gerencia o acesso às variáveis dentro de funções.

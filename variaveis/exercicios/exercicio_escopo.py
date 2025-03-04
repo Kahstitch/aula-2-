@@ -38,3 +38,26 @@ mostrar_saudacao()
 # - Dentro da função 'mostrar_saudacao', é definida a variável 'mensagem_local', que só
 #   existe no contexto da função.
 # - Ao chamar a função, ambas as mensagens são exibidas, demonstrando a diferença de escopo.
+
+#Resumo e Aplicação Prática
+
+✅ Variáveis globais: São definidas fora de funções e podem ser acessadas de qualquer parte do código.
+✅ Variáveis locais: São criadas dentro de funções e só existem durante a execução daquela função.
+
+🚀 Dica: Para modificar uma variável global dentro de uma função, é necessário usar a palavra-chave global.
+
+Exemplo:
+
+def alterar_saudacao():
+    global saudacao  # Permite modificar a variável global
+    saudacao = "Olá, programador!" 
+
+alterar_saudacao()
+print(saudacao)  # Agora a variável global foi alterada
+
+
+---
+
+📝 Desafio extra:
+🔹 Tente criar uma nova função que receba uma mensagem como parâmetro e altere saudacao globalmente.
+🔹 Execute a função e veja o resultado!

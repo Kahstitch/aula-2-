@@ -56,3 +56,67 @@ print("Status de maioridade:", maior_de_idade)  # Exibe se a pessoa é maior de 
 # 3. O cálculo do IMC é um exemplo prático de como utilizar variáveis em operações matemáticas.
 # 4. As f-strings facilitam a criação de mensagens dinâmicas e claras, integrando variáveis diretamente
 #    na string.
+
+#Explicação Completa
+
+1. Declaração de Variáveis
+
+idade (int): Número inteiro representando a idade da pessoa.
+
+altura (float): Número com decimal, representando a altura.
+
+nome (str): Texto armazenando o nome da pessoa.
+
+maior_de_idade (bool): Valor True ou False indicando se a idade é maior ou igual a 18 anos.
+
+
+2. Conversão de Tipos (Casting)
+
+float(idade): Transforma 25 (int) em 25.0 (float).
+
+Isso é útil em cálculos onde precisão decimal é necessária.
+
+
+3. Operações Matemáticas
+
+Cálculo do IMC:
+
+
+\text{IMC} = \frac{\text{peso}}{\text{altura}^2}
+
+4. Concatenação e Formatação de Strings
+
+f-strings (f"Texto {variavel}"): Método eficiente para inserir variáveis em strings.
+
+Formatando casas decimais: imc:.2f mantém apenas duas casas decimais.
+
+
+5. Exibição dos Resultados
+
+print() exibe mensagens informativas na tela.
+
+O código inclui um cabeçalho para organizar melhor a saída.
+
+
+
+---
+
+Saída Esperada
+
+=== Demonstração Avançada de Variáveis ===
+Olá, Alice! Você tem 25 anos e sua altura é 1.75m.
+Seu IMC calculado é: 22.20
+Idade convertida para float: 25.0
+Status de maioridade: True
+
+
+---
+
+Resumo
+
+✅ Declaração de variáveis de diferentes tipos.
+✅ Conversão entre tipos (int → float).
+✅ Operações matemáticas com exponenciação (altura ** 2).
+✅ Uso de f-strings para formatação de saída.
+✅ Código bem comentado e estruturado para iniciantes.
+
